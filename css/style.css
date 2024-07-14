@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: #0D0D0D;
+}
+div.loading{
+    display: flex;
+}
+
+div.cover{
+    background-color: rgba(255, 255, 255, 0.7);
+    top:100%;
+    bottom: -100%;
+    transition: all 500ms;
+}
+div.food:hover div.cover{
+    top:0%;
+    bottom: 0%;
+}
+nav.navigation{
+    background-color: #0D0D0D;
+}
+img.logo{
+    width: 50px;
+}
+::-webkit-input-placeholder{
+    color : #6C757D !important;
+}
+li , div.country , img.food, div.cover, div.ingredient ,nav.navigation i{
+    cursor: pointer;
+}
+
